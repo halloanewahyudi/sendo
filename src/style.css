@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  html,body{
+    @apply font-montserrat font-medium;
+  }
+  .my-gradient{
+    @apply bg-gradient-to-br from-brand-7 via-brand-8 to-brand-9;
+  }
+}
